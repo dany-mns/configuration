@@ -8,3 +8,8 @@ brew install stats
 ```
 ### Links
 https://rectangleapp.com/
+
+
+## Windows-OS
+
+## Linux-OS
