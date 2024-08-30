@@ -6,3 +6,5 @@ Config files
 ```shell
 brew install stats
 ```
+### Links
+https://rectangleapp.com/
