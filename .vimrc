@@ -13,5 +13,3 @@ set ignorecase
 set smartcase
 
 autocmd BufEnter * if &syntax == '' | set set pastentax=java | endif
-set paste
-colorscheme desert
