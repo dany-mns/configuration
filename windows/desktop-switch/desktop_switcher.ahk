@@ -22,6 +22,9 @@ mapDesktopsFromRegistry()
 OutputDebug, [loading] desktops: %DesktopCount% current: %CurrentDesktop%
 
 #Include %A_ScriptDir%\user_config.ahk
+; Map Alt + Shift + X to PrintScreen
+!+x::
+Send {PrintScreen}
 return
 
 ;
@@ -234,3 +237,4 @@ deleteVirtualDesktop()
     CurrentDesktop--
     OutputDebug, [delete] desktops: %DesktopCount% current: %CurrentDesktop%
 }
+
