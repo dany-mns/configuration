@@ -7,5 +7,5 @@ sleep 10
 mkdir -p ~/mnt/mydrive
 
 # Mount SSHFS
-shfs danym@ds:/mnt/mydrive ~/mnt/mydrive -o allow_other,defer_permissions,volname=MyDrive
+sshfs danym@ds:/mnt/mydrive ~/mnt/mydrive -o allow_other,defer_permissions,volname=MyDrive
 
